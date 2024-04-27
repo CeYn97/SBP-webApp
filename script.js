@@ -36,7 +36,6 @@ function handleSubmit(event) {
       const { qrStatus, qrId } = result;
       if (qrStatus === "PAID") {
         location.replace("/SBP-webApp/html/paid.html");
-        // content.textContent = `Order ${qrId} was paid`;
       } else if (qrStatus === "NEW") {
         location.replace("/SBP-webApp/html/not_paid.html");
       }
