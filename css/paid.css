@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Tactic Sans";
-  src: url("/Fonts/TacticSans-Thn.eot");
+  src: url("../Fonts/TacticSans-Thn.eot");
   src: local("Tactic Sans Thin"), local("TacticSans-Thn"),
-    url("/Fonts/TacticSans-Thn.eot?#iefix") format("embedded-opentype"),
-    url("/Fonts/TacticSans-Thn.woff2") format("woff2"),
-    url("/Fonts/TacticSans-Thn.woff") format("woff"),
-    url("/Fonts/TacticSans-Thn.ttf") format("truetype");
+    url("../Fonts/TacticSans-Thn.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/TacticSans-Thn.woff2") format("woff2"),
+    url("../Fonts/TacticSans-Thn.woff") format("woff"),
+    url("../Fonts/TacticSans-Thn.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }

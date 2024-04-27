@@ -35,17 +35,17 @@ function handleSubmit(event) {
     .then((result) => {
       const { qrStatus, qrId } = result;
       if (qrStatus === "PAID") {
-        location.replace("/html/paid.html");
+        location.replace("/SBP-webApp/html/paid.html");
         // content.textContent = `Order ${qrId} was paid`;
       } else if (qrStatus === "NEW") {
-        location.replace("/html/not_paid.html");
+        location.replace("/SBP-webApp/html/not_paid.html");
       }
     })
     .catch((error) => {
       if (error === "QR-код не найден") {
-        location.replace("/html/404.html");
+        location.replace("/SBP-webApp/html/404.html");
       } else {
-        location.replace("/html/not_paid.html");
+        location.replace("/SBP-webApp/html/not_paid.html");
       }
       // content.textContent = error;
     });
