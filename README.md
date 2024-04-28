@@ -1,4 +1,4 @@
-# Hakaton "Hack 3.0"
+# Hackaton "Hack 3.0"
 
 ## Команда "IT-colleques":
 
