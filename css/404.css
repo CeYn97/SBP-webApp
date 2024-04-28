@@ -55,7 +55,7 @@ body {
   justify-content: center; /* колонки растянутся на всю ширину */
   flex-flow: column wrap;
   color: #fff;
-  background: #1c1c1c;
+  background: #333333;
   padding-top: 150px;
   border-radius: 5px;
   border-radius: 25px;
